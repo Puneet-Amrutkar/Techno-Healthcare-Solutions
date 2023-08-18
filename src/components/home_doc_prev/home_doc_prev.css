@@ -1,0 +1,233 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home_Doc_Prev-megaContain
+{
+    /* border-bottom: 1px solid black; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-bottom: 140px; */
+
+}
+
+.heading-contain-doc
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.heading_1
+{
+    /* border: 2px solid green; */
+    color: black;
+    font-weight: 600;
+    width: 420px;
+    height: 70px;
+    padding-left: 19px;
+    padding-top: 9px;
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    /* background-image: url('../../assets/sidebarbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: linear-gradient(90deg, rgba(109, 195, 224, 0.772) 18%, rgba(243, 107, 86, 0.723) 55%, rgba(253, 175, 31, 0.716) 100%);
+    /* margin-left: 40px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.shopButtonDoc
+{
+    margin-left: 85px;
+    width: 200px;
+    height: 70px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 26px;
+    /* border: 1px solid rgb(16, 16, 80); */
+    /* border-radius: 40px; */
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgb(5, 68, 136);
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+    transition: 0.75s;
+}
+
+/* .carousel-megacontain-doc
+{
+    border: 2px solid blue;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.carousel-subcontain-doc
+{
+    /* margin-top: 20px; */
+    /* border: 2px solid blue; */
+    width: 90%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer-doc-1
+{
+    /* border: 1px solid red; */
+    width: 49%;
+    background-image: url('./offer_1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.offer-doc-2
+{
+    /* border: 1px solid red; */
+    width: 49%;
+    background-image: url('./offer_3.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contain-cards
+{
+    margin-top: 25px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+}
+
+.card
+{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.card:hover
+{
+    transition: 0.75s;
+    width: 210px;
+    height: 110%;
+}
+
+.card img
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.article-contain
+{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 52vh;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+    /* padding-bottom: 200px; */
+}
+
+.article-section-headings
+{
+    /* border: 2px solid blue; */
+    width: 40%;
+    height: 40vh;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.article-section-headings h2
+{
+    font-size: 35px;
+}
+
+.article-section-headings button
+{
+    width: 120px;
+    height: 45px;
+    color: #000000;
+    background-color: rgb(253, 147, 26);
+    border-radius: 5px;
+    border: none;
+    font-weight: 650;
+    letter-spacing: 0.5px;
+}
+
+.article-card-contain
+{
+    /* border: 2px solid green; */
+    width: 60%;
+    height: 51vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-2
+{
+    width: 220px;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-2:hover
+{
+    transition: 0.75s;
+    width: 230px;
+}
+
+.card-2 img
+{
+    height: 170px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.line
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 95%;
+    height: 10px;
+    border-bottom: 1px solid black;
+}

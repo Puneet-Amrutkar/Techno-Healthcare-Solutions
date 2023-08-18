@@ -1,0 +1,37 @@
+--> medicines
+
+const url = 'https://drug-info-and-price-history.p.rapidapi.com/1/druginfo?drug=advil';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+		'X-RapidAPI-Host': 'drug-info-and-price-history.p.rapidapi.com'
+	}
+};
+
+try {
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
+} catch (error) {
+	console.error(error);
+}
+
+--> doctors
+
+const url = 'https://betterdoctor.p.rapidapi.com/api.betterdoctor.com/2016-03-01/practices?BetterDoctor%20API%20key=%3CREQUIRED%3E';
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
+		'X-RapidAPI-Host': 'betterdoctor.p.rapidapi.com'
+	}
+};
+
+try {
+	const response = await fetch(url, options);
+	const result = await response.text();
+	console.log(result);
+} catch (error) {
+	console.error(error);
+}
